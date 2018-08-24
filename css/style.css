@@ -451,7 +451,7 @@
 /* ABOUT PAGE */
 .carousel-box{
     position: relative;
-    height: 900px;
+    height: 550px;
 }
 
 
@@ -463,7 +463,7 @@
     z-index: 1;
     top: 200px;
     left: 45%;
-    width: 13%;
+    width: 180px;
     height: 60px;
 }
 
@@ -573,4 +573,12 @@
     text-decoration: none;
     background-color: #dd4b39;
     color: white;
+}
+
+/* main body container */
+
+.a-cont1-f-row1-col{
+    height: 200px;
+    background-color: #dd4b39;
+    margin: 5px;
 }
