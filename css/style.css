@@ -441,3 +441,25 @@
 }
 
 /* End Gmail icon and Gmail And all the Effects */
+
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@######################################$$$$$$$$$$$$$$$$$$$$$$$$$^^^^^^^^^^^^^^^^^^^^&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+/* ABOUT PAGE */
+.carousel-box{
+    position: relative;
+    height: 900px;
+}
+
+.carousel-box-overlay{
+    background-color: #0d9fec;
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 45%;
+    width: 200px;
+    height: 90px;
+}
