@@ -454,12 +454,123 @@
     height: 900px;
 }
 
+
+/* carousel box containing social media icons */
+
 .carousel-box-overlay{
-    background-color: #0d9fec;
     position: absolute;
+    display: flex;
     z-index: 1;
     top: 200px;
     left: 45%;
-    width: 200px;
-    height: 90px;
+    width: 13%;
+    height: 60px;
+}
+
+
+/* facebook anchor */
+
+.facebook-about{
+    flex: 1;
+    border-radius: 50%;
+    margin: 2px;
+    position: relative;
+}
+
+/* facebook icon normal */
+
+.facebook-icon-about{
+    position: absolute;
+    top: 7%;
+    left: 4%;
+    width: 94%;
+    height: 89%;
+    font-size: 25px;
+    border-radius: 50%;
+    padding-top: 25%;
+    text-align: center;
+    color: white;
+    background-color: #00c2a8;
+}
+
+/* facebook icon hover */
+
+.facebook-icon-about:hover {
+    transform: rotateX(360deg);
+    transition: ease 1.3s;
+    text-decoration: none;
+    background-color: rgb(59, 89, 152);
+    color: white;
+}
+
+/* Youtube anchor */
+
+.youtube-about{
+    flex: 1;
+    border-radius: 50%;
+    margin: 2px;
+    position: relative;
+}
+
+/* youtube icon normal */
+
+.youtube-icon-about{
+    position: absolute;
+    top: 7%;
+    left: 4%;
+    width: 94%;
+    height: 89%;
+    font-size: 25px;
+    border-radius: 50%;
+    padding-top: 25%;
+    text-align: center;
+    color: white;
+    background-color: #00c2a8;
+}
+
+/* youtube icon hover */
+
+.youtube-icon-about:hover {
+    transform: rotateX(360deg);
+    transition: ease 1.3s;
+    text-decoration: none;
+    background-color: #ff0000;
+    color: white;
+}
+
+
+
+/* googleplus anchor */
+
+.gplus-about{
+    flex: 1;
+    border-radius: 50%;
+    margin: 2px;
+    position: relative;
+}
+
+/* googleplus icon normal*/
+
+.gplus-icon-about{
+    position: absolute;
+    top: 7%;
+    left: 4%;
+    width: 94%;
+    height: 89%;
+    font-size: 25px;
+    border-radius: 50%;
+    padding-top: 25%;
+    text-align: center;
+    color: white;
+    background-color: #00c2a8;
+}
+
+/* googleplus icon hover */
+
+.gplus-icon-about:hover {
+    transform: rotateX(360deg);
+    transition: ease 1.3s;
+    text-decoration: none;
+    background-color: #dd4b39;
+    color: white;
 }
