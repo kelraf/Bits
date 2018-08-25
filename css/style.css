@@ -25,15 +25,15 @@
 
 /* banner animation background */
 
-/* @keyframes banner-bg{
-    0%{ background-image: url(../images/products/avast.png;); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-    15%{ background-image: url(../images/products/chrome.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+@keyframes banner-bg{
+    0%{ background-image: url(../images/home_banner/best\ music\ players.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+    15%{ background-image: url(../images/home_banner/games.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
     25%{ background-image:url(../images/products/games1.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-    45%{ background-image:url(../images/products/kaspersky.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-    75%{ background-image: url(../images/products/netflix.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-    85%{ background-image: url(../images/products/visual_studio_code.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+    45%{ background-image:url(../images/home_banner/languages.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+    75%{ background-image: url(../images/home_banner/listenmusic.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+    85%{ background-image: url(../images/home_banner/opera.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
     100%{ background-image: url(../images/products/potplayer.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-} */
+}
 
 
 /* End of banner animation background */
