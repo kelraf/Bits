@@ -588,3 +588,38 @@
     background-color: #dd4b39;
     margin: 5px;
 }
+
+/* first container row one column one contents */
+
+.a-cont1-f-row1-col1{
+    background-image: url(../images/about/ceo.jpg);
+    background-size: cover;
+}
+
+/* first container row one column one contents */
+
+.a-cont1-f-row1-col2{
+    background-image: url(../images/about/directer.jpg);
+    background-size: cover;
+}
+
+/* first container row one column one contents */
+
+.a-cont1-f-row1-col3{
+    background-image: url(../images/about/dir.jpg);
+    background-size: cover;
+}
+
+/* first container row one columns caption general */
+
+.a-cont1-f-row1-col h6{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    height: 35px;
+    padding-top: 7px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
