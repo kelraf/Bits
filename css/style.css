@@ -722,7 +722,7 @@
 .c-cont2-f-row1-col:hover{
     box-shadow: 5px 5px  0.2px rgba(51, 51, 51, 0.479);
     transition: 0.5s ease;
-    transform: translateY(5px);
+    transform: translateY(-5px);
 
 }
 
