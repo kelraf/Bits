@@ -449,11 +449,11 @@
 /* @@@@@@@@@@@@@@@@@@@@@@######################################$$$$$$$$$$$$$$$$$$$$$$$$$^^^^^^^^^^^^^^^^^^^^&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 /* ABOUT PAGE */
+
+
 .carousel-box{
     position: relative;
-    height: 550px;
 }
-
 
 /* carousel box containing social media icons */
 
@@ -461,8 +461,9 @@
     position: absolute;
     display: flex;
     z-index: 1;
-    top: 200px;
-    left: 45%;
+    bottom: 1%;
+    left: 2%;
+    margin: auto;
     width: 180px;
     height: 60px;
 }
@@ -574,6 +575,11 @@
     background-color: #dd4b39;
     color: white;
 }
+
+
+
+/* End carousel box containing social media icons */
+
 
 /* main body container */
 
