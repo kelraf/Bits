@@ -53,7 +53,6 @@
 
 .banner-n-cont-col{
     height: 90px;
-    /* background: white; */
     margin: 2px;
 }
 
@@ -440,7 +439,7 @@
 
 
 
-/* @@@@@@@@@@@@@@@@@@@@@@######################################$$$$$$$$$$$$$$$$$$$$$$$$$^^^^^^^^^^^^^^^^^^^^&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* ************************************************************************************************************** */
 
 /* ABOUT PAGE */
 
@@ -646,7 +645,10 @@
 /* Banner  */
 .c-cont1-f-row1-col1{
     height: 500px;
-    background-color: #156b20;
+    background-image: url(../images/banners/contact1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -666,21 +668,21 @@
 
 .c-cont2-f-row1-col1{
     height: 300px;
-    background-color: aqua;
+    background-color: #0d9fec;
     margin:2px;
     margin-right:30px;
 }
 
 .c-cont2-f-row1-col2{
     height: 300px;
-    background-color: aqua;
+    background-color: #0d9fec;
     margin:2px;
     margin-right:30px;
 }
 
 .c-cont2-f-row1-col3{
     height: 300px;
-    background-color: aqua;
+    background-color: #0d9fec;
     margin:2px;
     margin-right:30px;
 }
@@ -688,5 +690,46 @@
 /* Row containing location, phone, and gmail columns */
 
 .c-cont2-f-row1{
-    margin-top: -35px;
+    margin-top: -50px;
+}
+
+  /* Icon boxs */
+  .icon-box{
+      background-color: aqua;
+      height: 65px;
+      width: 65px;
+      margin: auto;
+      margin-top: 30px;
+      border-radius: 50%;
+      position: relative;
+      font-size: 25px;
+  }
+
+  .icon{
+      position: absolute;
+      bottom: 30%;
+      left: 35%;
+      color: white;
+  }
+
+.c-cont2-f-row1-col h5, p{
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.c-cont2-f-row1-col:hover{
+    box-shadow: 5px 5px  0.2px rgba(51, 51, 51, 0.479);
+    transition: 0.5s ease;
+    transform: translateY(5px);
+
+}
+
+/* map and form section */
+
+.c-cont2-f-row2-col{
+    height: 400px;
+    background-color: #d34836;
+    margin: 5px;
 }
