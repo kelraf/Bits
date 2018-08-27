@@ -6,7 +6,8 @@
 
 /* custom-nav */
 .custom-nav{
-    padding-left: 40%;   
+    padding-left: 40%; 
+    padding-right: 0;  
 }
 
 /* END OF HEADER */
@@ -31,8 +32,8 @@
     25%{ background-image:url(../images/products/games1.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
     45%{ background-image:url(../images/home_banner/languages.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
     75%{ background-image: url(../images/home_banner/listenmusic.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-    85%{ background-image: url(../images/home_banner/opera.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-    100%{ background-image: url(../images/products/potplayer.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+    100%{ background-image: url(../images/home_banner/opera.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+    /* 100%{ background-image: url(../images/products/potplayer.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;} */
 }
 
 
