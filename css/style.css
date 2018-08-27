@@ -17,7 +17,7 @@
     /* background-image: url(../images/banner.jpg);
     background-size: cover;
     background-attachment: fixed; */
-    animation-name: banner-bg;
+    animation-name: home-banner;
     animation-iteration-count: infinite;
     animation-delay: 0.2s;
     animation-duration: 50s;
@@ -25,7 +25,7 @@
 
 /* banner animation background */
 
-@keyframes banner-bg{
+@keyframes home-banner{
     0%{ background-image: url(../images/home_banner/best\ music\ players.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
     15%{ background-image: url(../images/home_banner/games.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
     25%{ background-image:url(../images/products/games1.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
@@ -645,11 +645,22 @@
 /* Banner  */
 .c-cont1-f-row1-col1{
     height: 500px;
-    background-image: url(../images/banners/contact1.png);
+    /* background-image: url(../images/banners/contact1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     position: relative;
+    animation-name: contact-banner;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+/* Contact banner animation */
+
+@keyframes contact-banner {
+    0%{ background-image: url(../images/banners/contact4.jpg); background-attachment: fixed; background-size: cover;}
+    50%{ background-image: url(../images/banners/contact2.jpg); background-attachment: fixed; background-size: cover;}
+    100%{ background-image: url(../images/banners/contact.jpg); background-attachment: fixed; background-size: cover;}
 }
 
 .contact-overlay{
