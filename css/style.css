@@ -816,6 +816,27 @@
 } 
 
 
+/* ********************************************************************************************************************** */
+
+/* ANDROID PAGE */
+.com-n{
+    height: 250px;
+}
+
+
+/* Third Container Section 2 */
+/* Third container row one */
+
+.and-cont3-f-row1-col{
+    height: 250px;
+    margin: 2px;
+    margin-top: 15px;
+}
+.and-cont3-f-row2-col1{
+    height: 400px;
+    background-color: #333;
+    margin-top: 15px;
+}
 
 
 
