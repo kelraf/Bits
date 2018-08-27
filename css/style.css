@@ -849,6 +849,54 @@
 
 
 
+/* ******************************************************************************************************************* */
+
+/* MICROSOFT PAGE */
+
+/* Microsoft banner */
+.m-cont1-f-row1-col1{
+    height: 550px;
+    background-color: #dd4b39;
+}
+
+/* Microsoft Body */
+
+/* Microsoft Body Section One  */
+.m-cont2-f-row1-col{
+    height: 250px;
+    background-color: #333;
+    margin: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Microsoft Body Section Two */
+.m-cont2-f-row2-col{
+    height: 250px;
+    background-color: red;
+    margin: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Microsoft Body Section Three */
+.m-cont2-f-row3-col1{
+    height: 400px;
+    background-color: #333;
+    margin: 4px;
+    margin-top: 15px;
+}
+
+
+/* Latest Apps Section Four */
+.m-cont2-f-row4-col{
+    height: 250px;
+    background-color: red;
+    margin: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 
 
 
