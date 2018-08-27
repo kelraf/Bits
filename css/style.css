@@ -446,6 +446,10 @@
 
 .carousel-box{
     position: relative;
+<<<<<<< HEAD
+=======
+    height: 550px;
+>>>>>>> 91e04b913cc7f7d166a0e2946c4fa6e46a936d0e
 }
 
 /* carousel box containing social media icons */
@@ -454,9 +458,14 @@
     position: absolute;
     display: flex;
     z-index: 1;
+<<<<<<< HEAD
     bottom: 1%;
     left: 2%;
     margin: auto;
+=======
+    top: 200px;
+    left: 45%;
+>>>>>>> 91e04b913cc7f7d166a0e2946c4fa6e46a936d0e
     width: 180px;
     height: 60px;
 }
@@ -569,17 +578,21 @@
     color: white;
 }
 
+<<<<<<< HEAD
 
 
 /* End carousel box containing social media icons */
 
 
+=======
+>>>>>>> 91e04b913cc7f7d166a0e2946c4fa6e46a936d0e
 /* main body container */
 
 .a-cont1-f-row1-col{
     height: 200px;
     background-color: #dd4b39;
     margin: 5px;
+<<<<<<< HEAD
 }
 
 /* first container row one column one contents */
@@ -733,3 +746,6 @@
     background-color: #d34836;
     margin: 5px;
 }
+=======
+}
+>>>>>>> 91e04b913cc7f7d166a0e2946c4fa6e46a936d0e
