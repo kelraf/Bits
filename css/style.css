@@ -832,12 +832,20 @@
     margin: 2px;
     margin-top: 15px;
 }
+
+/* Third Container Row two  */
+
 .and-cont3-f-row2-col1{
     height: 400px;
     background-color: #333;
     margin-top: 15px;
 }
 
+/* Third Container Row Three  */
+.and-cont3-f-row3-col{
+    height: 400px;
+    margin: 15px;
+}
 
 
 
