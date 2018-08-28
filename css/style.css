@@ -855,19 +855,66 @@
 
 /* Microsoft banner */
 .m-cont1-f-row1-col1{
-    height: 550px;
-    background-color: #dd4b39;
+    /* height: 550px;; */
 }
 
 /* Microsoft Body */
 
-/* Microsoft Body Section One  */
+/* Games section  */
 .m-cont2-f-row1-col{
     height: 250px;
     background-color: #333;
     margin: 4px;
     margin-top: 15px;
     margin-bottom: 15px;
+    position: relative;
+}
+
+.games{
+    width: 100%;
+    height: 100%;
+}
+
+/* Hover on games images */
+/* .m-cont2-f-row1-col:hover .games{
+    transform: scale(1.02, 1.02);
+    transition: 0.5s ease;
+} */
+
+/* games-overlay */
+
+.games-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.685);
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.games-overlay p{
+    position: absolute;
+    bottom: 130px;
+    left: 35%; 
+    z-index: 0;
+}
+
+/* Overlay Hover */
+
+.m-cont2-f-row1-col:hover .games-overlay{
+    opacity: 1;
+    height: 100%;
+}
+
+/* Button Games */
+.btn-games{
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+    color: white;
 }
 
 /* Microsoft Body Section Two */
