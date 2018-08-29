@@ -924,6 +924,79 @@
     margin: 4px;
     margin-top: 15px;
     margin-bottom: 15px;
+    position: relative;
+}
+
+.m-cont2-f-row2-col1{
+    background-image: url(../images/microsoft/Multimedia/dickdj-bg.jpg)
+}
+
+.m-cont2-f-row2-col2{
+    background-image: url(../images/microsoft/Multimedia/bass\ cover.jpg)
+}
+
+.m-cont2-f-row2-col4{
+    background-image: url(../images/microsoft/Multimedia/dj-bg.jpg)
+}
+
+
+/* Styling Playes logos */
+.players{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    height: 90px;
+    transition: 1s ease;
+    animation-name: player-logos;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* Animating Player icons */
+
+@keyframes player-logos{
+    0%{
+        bottom: 5px;
+    }
+    50%{
+        bottom: 15px;
+    }
+    100%{
+        bottom: 5px;
+    }
+}
+
+/* Players Logos On Hover */
+.m-cont2-f-row2-col:hover .players{
+    position: absolute;
+    bottom: 40px;
+    left: 20%;
+    height: 165px;
+    animation: 0;
+}
+
+/* Styling players button */
+.btn-playes{
+    position: absolute;
+    bottom: 5px;
+    left: 36%;
+    height: 30px;
+    padding-top: 1.6px;
+    opacity: 0;
+    color: white;
+}
+
+/* Btn players Hover  */
+
+.m-cont2-f-row2-col:hover .btn-playes{
+    opacity: 1;
+    color: white;
+    transition: 1s ease-in;
+}
+
+.m-cont2-f-row2-col h5{
+    color: white;
+    margin-top: 5px;
 }
 
 /* Microsoft Body Section Three */
