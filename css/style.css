@@ -948,7 +948,7 @@
     height: 90px;
     transition: 1s ease;
     animation-name: player-logos;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
@@ -959,7 +959,13 @@
         bottom: 5px;
     }
     50%{
-        bottom: 15px;
+        bottom: 8px;
+    }
+    75%{
+        bottom: 15;
+    }
+    85%{
+        bottom: 8;
     }
     100%{
         bottom: 5px;
@@ -1004,6 +1010,7 @@
     height: 400px;
     margin: 4px;
     margin-top: 15px;
+    position: relative;
     animation-name: browsers;
     animation-duration: 15s;
     animation-iteration-count: infinite;
@@ -1013,6 +1020,17 @@
     0%{ background-image: url(../images/microsoft/browsers/fox-bg.png); background-size: cover;}
     50%{background-image: url(../images/microsoft/browsers/opera.jpg); background-size: cover;}
     100%{ background-image: url(../images/microsoft/browsers/chrome-bg.jpg); background-size: cover;}
+}
+
+/* Overlay Browser */
+.browser-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(13, 159, 236, 0.5);
 }
 
 /* Row One Chrome */
@@ -1055,14 +1073,12 @@
     margin-bottom: 10px;
 }
 
-/* Latest Apps Section Four */
-.m-cont2-f-row4-col{
-    height: 250px;
-    background-color: red;
-    margin: 4px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.m-cont2-f-row3-col2{
+    background: url(../images/microsoft/antivirus/Malware_01.jpg);
+    background-size: cover;
+    position: relative;
 }
+
 
 
 
@@ -1081,6 +1097,7 @@
 
 .btn-general{
     outline: none;
+    color: white
     background-color: rgba(0, 255, 255, 0);
     border: 1px solid aqua;
     width: 100px;
@@ -1091,5 +1108,6 @@
     border: none;
     transition: 0.2s ease-in;
     border: 1px solid #0d9fec;
+    color: white
 }
 
