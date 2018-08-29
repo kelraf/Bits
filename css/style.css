@@ -1002,11 +1002,58 @@
 /* Microsoft Body Section Three */
 .m-cont2-f-row3-col1{
     height: 400px;
-    background-color: #333;
     margin: 4px;
     margin-top: 15px;
+    animation-name: browsers;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes browsers{
+    0%{ background-image: url(../images/microsoft/browsers/fox-bg.png); background-size: cover;}
+    50%{background-image: url(../images/microsoft/browsers/opera.jpg); background-size: cover;}
+    100%{ background-image: url(../images/microsoft/browsers/chrome-bg.jpg); background-size: cover;}
+}
+
+/* Row One Chrome */
+.m-cont3-f-n-row1-col{
+    margin: 1px;
+}
+
+
+/* Row Two  Opera*/
+.m-cont3-f-n-row2-col{
+    margin: 1px;
+}
+
+
+/* Row Three Safari */
+
+.m-cont3-f-n-row3-col{
+    margin: 1px; 
+}
+
+/* Row Four Firefox */
+
+.m-cont3-f-n-row4-col{
+    margin: 1px;  
+}
+
+/* General Browser Names */
+
+.b-name h6{
+    color: white;
+    margin-top: 16px;
+}
+
+
+/* General Browser logos */
+
+.browsers{
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /* Latest Apps Section Four */
 .m-cont2-f-row4-col{
@@ -1042,7 +1089,7 @@
 .btn-general:hover{
     background-color: #0d9fec;
     border: none;
-    transition: 0.5s ease-in;
+    transition: 0.2s ease-in;
     border: 1px solid #0d9fec;
 }
 
