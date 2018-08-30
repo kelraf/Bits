@@ -823,6 +823,131 @@
     height: 250px;
 }
 
+/* Animating backgroud App of the day */
+.and-cont1-f-row1-col1 {
+    position: relative;
+    background-color: #333;
+    animation-name: bg-app-day;
+    animation-duration: 16s;
+}
+
+@keyframes bg-app-day{
+    0%{background: url(../images/android/mx-bg1.jpg); background-size: cover;}
+    25%{background: url(../images/android/mx-p-bg4.jpg); background-size: cover;}
+    50%{ background: url(../images/android/mx-p-bg2.jpg); background-size: cover;}
+    100%{ background: url(../images/android/mx-p-bg3.jpg); background-size: cover;}
+}
+
+
+/* Player */
+
+.and-cont1-f-row1-col1 h2{
+    position: absolute;
+    bottom: 250px;
+    left: 39%;
+    transform: scale(0);
+    color: white;
+    animation-name: player;
+    animation-duration: 8s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+/* Animating Player */
+
+@keyframes player{
+   0%{transform: scale(0);}
+   50%{transform: scale(2);}
+   65%{ transform: scale(1); } 
+   100%{ transform: scale(1); bottom: 160px;}
+}
+
+.and-cont1-f-row1-col1 h1{
+    color: white;
+    position: absolute;
+    bottom: 250px;
+    left: 35%;
+    transform: scale(0);
+    animation-name: introducing;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+/* Animating Introducing */
+@keyframes introducing{
+    0%{transform: scale(0);}
+    50%{ transform: scale(2);}
+    100%{ transform: scale(0);}
+}
+
+
+
+/* App of the day */
+.and-cont1-f-row1-col1 h4{
+    color: azure;
+    font-size: 2em;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    animation-name: header-app-day;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* animate header-app-day */
+
+@keyframes header-app-day{
+    0%{left: -190px;}
+    100%{left: 35%;}
+}
+
+/* Buttons for app day */
+.btn-app-day{
+    position: absolute;
+    animation-name: btn-app-day;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    left: -190px;
+    bottom: 180px;
+}
+
+/* Animate Btn */
+@keyframes btn-app-day{
+    0%{
+        left: -190px;
+        bottom: 180px;
+    }
+    50%{
+        left: 35%;
+        bottom: 180px;
+    }
+
+    100%{
+        left: 35%;
+        bottom: 50px;
+    }
+}
+
+/* Logo */
+
+.app-day-logo{
+    height: 150px;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    animation-name: app-day-logo;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+/* animate logo */
+
+@keyframes app-day-logo{
+    0%{transform: scale(0.1);}
+    
+    100%{transform: scale(1.3);}
+}
+
 
 /* Third Container Section 2 */
 /* Third container row one */
@@ -1097,7 +1222,7 @@
 
 .btn-general{
     outline: none;
-    color: white
+    color: white;
     background-color: rgba(0, 255, 255, 0);
     border: 1px solid aqua;
     width: 100px;
