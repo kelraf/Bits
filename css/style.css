@@ -959,7 +959,9 @@
 
 /* Animation and Transition Players section 2 */
 
-
+.p-section-2-img:hover{
+    transform: rotate(360deg);
+}
 
 /* Third Container Section 2 */
 /* Third container row one */
