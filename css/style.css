@@ -979,13 +979,110 @@
 }
 
 /* Third Container Section 2 */
+
 /* Third container row one */
 
 .and-cont3-f-row1-col{
     height: 250px;
     margin: 2px;
     margin-top: 15px;
+    position: relative;
 }
+
+/* Final Fantacy */
+.and-cont3-f-row1-col1{
+    background-image: url(../images/android/games/FINAL\ FANTASY\ BRAVE\ EXVIUS.jpg);
+    background-size: cover;
+}
+
+/* vainglory */
+.and-cont3-f-row1-col2{
+    background-image: url(../images/android/games/vainglory.png);
+    background-size: cover;
+}
+
+/* plagueincevolved */
+.and-cont3-f-row1-col3{
+    background-image: url(../images/android/games/plagueincevolved.png);
+    background-size: cover;
+}
+
+
+/* Nova Legacy */
+.and-cont3-f-row1-col4{
+    background-image: url(../images/android/games/NOVA\ Legacy.jpg);
+    background-size: cover; 
+}
+
+/* Row one overlays */
+
+/* Row one overlays top content */
+
+.a-games-overlay-top h5{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 13px; 
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+/* Row one overlays top content hover */
+
+.and-cont3-f-row1-col:hover .a-games-overlay-top h5{
+    transform: scale(1);
+}
+
+/* Row one overlays bottom content */
+.a-games-overlay-bottom a{
+    transform: scale(0);
+    transition: 0.2;
+    transition-delay: 0.4s;
+}
+
+.and-cont3-f-row1-col:hover .a-games-overlay-bottom a{
+    transform: scale(1);    
+}
+
+/* Row one overlays top */
+.a-games-overlay-top{
+    height: 0;
+    widows: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.5s ease-out;
+}
+
+/* Row one overlays top hover */
+.and-cont3-f-row1-col:hover .a-games-overlay-top{
+    height: 50px;
+}
+
+
+/* Row one overlays bottom */
+
+.a-games-overlay-bottom{
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s ease-out width;
+}
+
+/* Row one overlays bottom Hover */
+
+.and-cont3-f-row1-col:hover .a-games-overlay-bottom{
+    width: 100%;
+} 
+
 
 /* Third Container Row two  */
 
