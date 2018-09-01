@@ -146,13 +146,13 @@
    position: relative;
 }
 .h-cont3-f-row1-col1{
-    background-image: url(../images/about\ us\ pic\ 4.jpg);
+    background-image: url(../images/about/working.jpg);
     background-size: cover;
 }
 
 /* A Brief Introduction Who We Are */
 .h-cont3-f-row1-col2{
-    background: url(../images/about\ us\ pic\ 1.jpg);
+    background: url(../images/about/handsha2.jpg);
     background-size: cover;
 }
 
@@ -822,7 +822,7 @@
 .com-n{
     height: 250px;
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
 }
 
 /* Animating backgroud App of the day */
@@ -1086,17 +1086,99 @@
 
 /* Third Container Row two  */
 
-.and-cont3-f-row2-col1{
-    height: 400px;
+.and-cont3-f-row2-col{
+    height: 250px;
     background-color: #333;
+    margin: 2px;
     margin-top: 15px;
 }
 
-/* Video section */
+/* ################################################################################## */
 
-.video-bg-t{
+/* Row Two overlays */
+
+/* Row two overlays top content */
+
+.a-d-overlay-top h5{
+    color: white;
     width: 100%;
-    height: 100%;
+    text-align: center;
+    margin-top: 13px; 
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+/* Row two overlays top content hover */
+
+.and-cont3-f-row2-col:hover .a-d-overlay-top h5{
+    transform: scale(1);
+}
+
+/* Row two overlays bottom content */
+.a-d-overlay-bottom a{
+    transform: scale(0);
+    transition: 0.2;
+    transition-delay: 0.4s;
+}
+
+.and-cont3-f-row2-col:hover .a-d-overlay-bottom a{
+    transform: scale(1);    
+}
+
+/* Row two overlays top */
+.a-d-overlay-top{
+    height: 0;
+    widows: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.5s ease-out;
+}
+
+/* Row two overlays top hover */
+.and-cont3-f-row2-col:hover .a-d-overlay-top{
+    height: 50px;
+}
+
+
+/* Row two overlays bottom */
+
+.a-d-overlay-bottom{
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s ease-out width;
+}
+
+/* Row two overlays bottom Hover */
+
+.and-cont3-f-row2-col:hover .a-d-overlay-bottom{
+    width: 100%;
+}
+
+/* ################################################################################## */
+
+
+/* Background images */
+
+/* .and-cont3-f-row2-col1{
+    background: url(../images/android/others/truecaller.png);
+    background-size: cover;
+} */
+
+.a-apps{
+    height: 120px;
+    position: absolute;
+    left: 30%;
+    bottom: 70px;
 }
 
 /* Third Container Row Three  */
