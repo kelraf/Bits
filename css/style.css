@@ -7,7 +7,14 @@
 /* custom-nav */
 .custom-nav{
     padding-left: 40%; 
-    padding-right: 0;  
+}
+
+.nav-link-custom{
+    color: #ff0000;
+}
+
+.icon-custom{
+    color: red;
 }
 
 /* END OF HEADER */
@@ -20,7 +27,6 @@
     background-attachment: fixed; */
     animation-name: home-banner;
     animation-iteration-count: infinite;
-    animation-delay: 0.2s;
     animation-duration: 50s;
 }
 
@@ -33,9 +39,7 @@
     45%{ background-image:url(../images/home_banner/languages.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
     75%{ background-image: url(../images/home_banner/listenmusic.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
     100%{ background-image: url(../images/home_banner/opera.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-    /* 100%{ background-image: url(../images/products/potplayer.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;} */
 }
-
 
 /* End of banner animation background */
 
@@ -44,7 +48,7 @@
 .overlay-1{
     width: 100%;
     height: inherit;
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0.322);
 }
 #h1{
     font-size: 80px;
@@ -202,23 +206,13 @@
 
 /* btn */
 .btn-overall{
-    outline: none;
-    border: none;
-    width: 100px;
     opacity: 0;
-    transform: translateY(15px);
     transition: 1s ease;
     transition-delay: 0.4s; 
 }
 
 .overlay-2:hover .btn-overall{
     opacity: 1;
-}
-
-.btn-overall:hover{
-    text-decoration: none;
-    transform: rotateY(360deg);
-    transition: 0.7s;
 }
 
 .btn-overall-link{
