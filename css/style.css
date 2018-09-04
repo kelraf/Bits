@@ -615,13 +615,13 @@
 }
 
 .a-cont1-f-row2-col p{
-    color: #0d9fec;
+    color: black;
 }
 
 .a-cont1-f-row3-col{
     border: 0.5px solid rgba(51, 51, 51, 0.521);
     margin: 2px;
-    color: rgb(51, 51, 51);
+    color: black;
 }
 
 /* Styling the icons */
@@ -633,14 +633,13 @@
 /* Styling texts */
 
 .a-cont1-f-row3-col p{
-    color: #0d9fec;
+    color: black;
 }
 
 /* Our partners */
 
 .a-cont1-f-row4-col{
-    height: 200px;
-    background-color: #333;
+    height: 90px;
     margin: 4px;
 }
 
@@ -1437,6 +1436,5 @@
     border: none;
     transition: 0.2s ease-in;
     border: 1px solid white;
-    color: white
+    color: white;
 }
-
