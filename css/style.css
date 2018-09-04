@@ -1,30 +1,19 @@
-
-/* HEADER (CONT1-F) */
-.h-cont1-f-row1-col{
-    height: 50px;
-}
-
-/* custom-nav */
+/* Navbar */
 .custom-nav{
-    padding-left: 40%; 
+    padding-left: 40%;
 }
 
-.nav-link-custom{
-    color: #ff0000;
+.nav-custom{
+    background-color: #0d9fec;
 }
 
-.icon-custom{
-    color: red;
+.nav-link-custom:hover{
+    color: #c4302b;
 }
-
-/* END OF HEADER */
 
 /* BUNNER (CONT2-F) */
 .h-cont2-f-row1-col1{
     height: 550px;
-    /* background-image: url(../images/banner.jpg);
-    background-size: cover;
-    background-attachment: fixed; */
     animation-name: home-banner;
     animation-iteration-count: infinite;
     animation-duration: 50s;
@@ -290,19 +279,20 @@
 /* our partners logos */
 
 .h-cont3-f-row3-col{
-	height: 150px;
+	height: 100px;
 	margin: 5px;
-    /* background-color: brown; */
 }
 
 
 
 .partner_three{
     width: 100%; 
+    height: 100%;
 }
 
 .partner_one{
     width: 100%;
+    height: 100%;
 }
 
 /* END OF CONTENT CONTAINER */
@@ -754,8 +744,7 @@
 /* map and form section */
 
 .c-cont2-f-row2-col{
-    /* height: 400px; */
-    background-color: #d34836;
+    height: 400px;
     margin: 5px;
 }
 
@@ -1124,7 +1113,7 @@
 .a-d-overlay-top{
     height: 0;
     widows: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(13, 159, 236, 0.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -1149,7 +1138,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(13, 159, 236, 0.8);
     transition: 0.5s ease-out width;
 }
 
@@ -1341,11 +1330,16 @@
     margin-top: 5px;
 }
 
+.m-cont2-f-row3-col{
+    height: 400px;
+}
+
 /* Microsoft Body Section Three */
 .m-cont2-f-row3-col1{
-    height: 400px;
+    /* height: auto; */
     margin: 4px;
     margin-top: 15px;
+    margin-bottom: 3px;
     position: relative;
     animation-name: browsers;
     animation-duration: 15s;
