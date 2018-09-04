@@ -1,4 +1,9 @@
 /* Navbar */
+
+.logo{
+    width: 150px;
+
+}
 .custom-nav{
     padding-left: 40%;
 }
