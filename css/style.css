@@ -38,7 +38,7 @@
 
 /* BUNNER (CONT2-F) */
 .h-cont2-f-row1-col1{
-    height: 550px;
+    height: 500px;
     animation-name: home-banner;
     animation-iteration-count: infinite;
     animation-duration: 40s;
@@ -211,6 +211,7 @@
 .h3-top{
    transform: translateY(100px);
    transition: 1.5s ease;
+   color: #ff7903;
 }
 
 .overlay-content-about{
@@ -394,13 +395,6 @@
     bottom: -29px;
     left: -38px;
     font-size: 20px;
-    opacity: 0;
-    transition: 0.5s ease;
-}
-
-.h-cont4-f-row1-col1:hover .phone-icon p{
-    opacity: 1;
-    color: white;
 }
 
 /* End of Phone Number and Icon and all the effects*/
@@ -428,16 +422,8 @@
 .whatsapp-icon p{
     position: relative;
     bottom: -29px;
-    left: -36px;
+    left: -39px;
     font-size: 20px;
-    opacity: 0;
-    transition: 0.5s ease;
-}
-
-/* Whatapp hover */
-.h-cont4-f-row1-col2:hover .whatsapp-icon p{
-    opacity: 1;
-    color: white;
 }
 
 /* End of Whatsapp icon and number and all the effects*/
@@ -466,19 +452,9 @@
 .gmail-icon p{
     position: relative;
     bottom: -29px;
-    left: -55px;
+    left: -35px;
     font-size: 20px;
-    opacity: 0;
-    transition: 0.5s ease;
 }
-
-/* Gmail hover */
-
-.h-cont4-f-row1-col3 a:hover .gmail-icon p{
-    opacity: 1;
-    color: white;
-}
-
 /* End Gmail icon and Gmail And all the Effects */
 
 
@@ -806,10 +782,11 @@
 /* Styling form */
 
 .c-cont2-f-row2-col2{
-    background-image: url(../images/banners/form-bg.jpg);
+    /* background-image: url(../images/banners/form-bg.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background: black;
 }
 
 .c-cont2-f-row2-col2 form{
@@ -882,6 +859,14 @@
     animation-name: bg-app-day;
     animation-duration: 16s;
     animation-iteration-count: infinite;
+}
+
+@media(max-width: 767px){
+    .and-cont1-f-row1-col1{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
 }
 
 /* p-section-2-btn  */
@@ -1477,12 +1462,12 @@
     outline: none;
     color: white;
     background-color: rgba(0, 255, 255, 0);
-    border: 1px solid aqua;
+    border: 1px solid #ff7903;
     width: 100px;
 }
 
 .btn-general:hover{
-    background-color: #0d9fec;
+    background-color: #ff7903;
     border: none;
     transition: 0.2s ease-in;
     border: 1px solid white;
