@@ -68,41 +68,11 @@
     font-size: 80px;
     margin-top: 70px;
     color: white;
-    opacity: 0;
-    animation-name: follow;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-delay: 9s;
-}
-
-@keyframes follow{
-    0%{opacity: 0;}
-    100%{opacity: 1;}
 }
 
 .text-holder{
     position: relative;
 }
-.text-holder h4{
-    position: absolute;
-    top: 200px;
-    left: 20%;
-    font-size: 50px;
-    color: white;
-    opacity: 0;
-    animation-name: welcome;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-
-}
-
-@keyframes welcome{
-    0%{opacity: 0;}
-    50%{opacity: 1;}
-    100%{opacity: 0;}
-}
-
 .banner-n-cont-col{
     height: 90px;
     margin: 2px;
@@ -712,28 +682,9 @@
 
 /* location, phone, and gmail */
 
-.c-cont2-f-row1-col1{
+.c-cont2-f-row1-col{
     height: 300px;
     background-color: #4f0105;
-    margin:2px;
-    margin-right:30px;
-    transition: 0.5s ease;
-}
-
-.c-cont2-f-row1-col2{
-    height: 300px;
-    background-color: #4f0105;
-    margin:2px;
-    margin-right:30px;
-    transition: 0.5s ease;
-}
-
-.c-cont2-f-row1-col3{
-    height: 300px;
-    background-color: #4f0105;
-    margin:2px;
-    margin-right:30px;
-    transition: 0.5s ease;
 }
 
 /* Row containing location, phone, and gmail columns */
@@ -776,16 +727,23 @@
 
 .c-cont2-f-row2-col{
     height: 400px;
-    margin: 5px;
+}
+
+/* Map section */
+.g-map-cont{
+    width: 100%;
+    height: inherit;
+    background: green;
+}
+.g-map{
+    height: inherit;
+    width: inherit;
+    border: none;
 }
 
 /* Styling form */
 
 .c-cont2-f-row2-col2{
-    /* background-image: url(../images/banners/form-bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat; */
     background: black;
 }
 
