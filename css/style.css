@@ -1,3 +1,38 @@
+.body{
+    opacity: 0;
+    animation-name: body;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    /* animation-timing-function: linear;  */
+}
+
+@keyframes body{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+/* Spiner */
+.spiner{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    top: 250px;
+    left: 45%;
+    z-index: 1;
+    animation-name: spine;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes spine{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg); opacity: 0;}
+}
+
 /* Navbar */
 
 .logo{
@@ -1035,7 +1070,7 @@
 .a-games-overlay-top{
     height: 0;
     widows: 100%;
-    background-color: rgba(13, 159, 236, 0.8);
+    background-color: #4f0105;
     position: absolute;
     top: 0;
     left: 0;
@@ -1060,7 +1095,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(13, 159, 236, 0.8);
+    background-color: #4f0105;
     transition: 0.5s ease-out width;
 }
 
@@ -1116,7 +1151,7 @@
 .a-d-overlay-top{
     height: 0;
     widows: 100%;
-    background-color: rgba(13, 159, 236, 0.8);
+    background-color: #4f0105;
     position: absolute;
     top: 0;
     left: 0;
@@ -1141,8 +1176,12 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(13, 159, 236, 0.8);
+    background-color: #4f0105;
     transition: 0.5s ease-out width;
+}
+
+.card-bg{
+    background: #4f0105;
 }
 
 /* Row two overlays bottom Hover */
@@ -1170,7 +1209,6 @@
 
 /* Third Container Row Three  */
 .and-cont3-f-row3-col{
-    /* height: 250px; */
     margin: 5px;
     margin-top: 10px;
     
