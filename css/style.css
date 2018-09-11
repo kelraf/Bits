@@ -43,9 +43,12 @@
     padding-left: 40%;
 }
 
+.icon-color{
+    background: white;
+}
+
 .nav-custom{
-    /* background-color: #0d9fec; */
-    /* background-color: #f44242; */
+
     background-color: #4f0105;
 }
 
@@ -62,13 +65,13 @@
 }
 
 .nav-link-custom{
-    color: #03ffdd;
+    color: #03ffdd !important;
     transition: 0.5s ease;
 }
 
 
 .nav-link-custom:hover{
-    color: #ff7903;
+    color: #ff7903 !important;
 }
 
 /* BUNNER (CONT2-F) */
