@@ -22,7 +22,7 @@
     left: 45%;
     z-index: 1;
     animation-name: spine;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
