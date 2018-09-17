@@ -103,8 +103,11 @@
     background-color: rgba(0, 0, 0, 0.322);
 }
 .h1{
-    font-size: 80px;
-    margin-top: 70px;
+    font-size: 40px;
+    background-color: rgba(255, 121, 3, 0.6);
+    /* background-color: rgba(79, 5, 1, 0.6); */
+    border-radius: 5px;
+    margin-top: 200px;
     color: white;
 }
 
@@ -1048,15 +1051,15 @@
     width: 100%;
     text-align: center;
     margin-top: 13px; 
-    transform: scale(0);
+    /* transform: scale(0); */
     transition: 0.5s;
 }
 
 /* Row one overlays top content hover */
 
-.and-cont3-f-row1-col:hover .a-games-overlay-top h5{
+/* .and-cont3-f-row1-col:hover .a-games-overlay-top h5{
     transform: scale(1);
-}
+} */
 
 /* Row one overlays bottom content */
 .a-games-overlay-bottom a{
@@ -1071,7 +1074,7 @@
 
 /* Row one overlays top */
 .a-games-overlay-top{
-    height: 0;
+    height: 50px;
     widows: 100%;
     background-color: #4f0105;
     position: absolute;
@@ -1082,9 +1085,9 @@
 }
 
 /* Row one overlays top hover */
-.and-cont3-f-row1-col:hover .a-games-overlay-top{
+/* .and-cont3-f-row1-col:hover .a-games-overlay-top{
     height: 50px;
-}
+} */
 
 
 /* Row one overlays bottom */
@@ -1129,15 +1132,15 @@
     width: 100%;
     text-align: center;
     margin-top: 13px; 
-    transform: scale(0);
+    /* transform: scale(0); */
     transition: 0.5s;
 }
 
 /* Row two overlays top content hover */
 
-.and-cont3-f-row2-col:hover .a-d-overlay-top h5{
+/* .and-cont3-f-row2-col:hover .a-d-overlay-top h5{
     transform: scale(1);
-}
+} */
 
 /* Row two overlays bottom content */
 .a-d-overlay-bottom a{
@@ -1152,7 +1155,7 @@
 
 /* Row two overlays top */
 .a-d-overlay-top{
-    height: 0;
+    height: 50px;
     widows: 100%;
     background-color: #4f0105;
     position: absolute;
@@ -1163,9 +1166,9 @@
 }
 
 /* Row two overlays top hover */
-.and-cont3-f-row2-col:hover .a-d-overlay-top{
+/* .and-cont3-f-row2-col:hover .a-d-overlay-top{
     height: 50px;
-}
+} */
 
 
 /* Row two overlays bottom */
